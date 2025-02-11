@@ -8,9 +8,10 @@
 - **Adhikari Venkatesh**
 - **Adari Chandini**
 - **Kontham Lakshmi Hemanjali**
-  
-## Project Overview
 
-This project focuses on **Human Pose Estimation**, a technology that helps in detecting and understanding the human body posture from images or video data. 
-The goal is to analyze and track human poses for various applications such as action recognition , fitness tracking, and more.
 
+**Introduction**
+
+Human Pose Estimation is a computer vision task that involves identifying key                                                             points on the human body to understand movement and posture. It has become                                                          important in many fields—ranging from sports analysis to healthcare—because                                                                   it helps interpret human activity. In this project, we use the MediaPipe pipeline, which                                                         offers a simple and efficient way to implement pose estimation without building a
+complex model from scratch. MediaPipe’s modular design and pre-trained models
+make it ideal for real-time applications and rapid development.
