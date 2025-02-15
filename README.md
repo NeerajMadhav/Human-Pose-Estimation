@@ -8,7 +8,7 @@
 - **Adhikari Venkatesh**
 - **Adari Chandini**
 - **Kontham Lakshmi Hemanjali**
-- 
+  
 
 **Introduction**
 
@@ -109,12 +109,10 @@ solution for integrating pose estimation into a variety of applications.
 **1. Input:**
 The project takes images or videos as input, usually captured via webcams, smartphone cameras, or video files. These inputs contain people performing various movements or poses, which the system will analyze.
 
----
 
 **2. Processing:**
 The input is processed using  **MediaPipe Pose** , which detects 33 key landmarks on the human body (like shoulders, elbows, knees, and ankles). The system calculates joint angles, tracks movements across frames, and analyzes body posture to recognize activities such as walking, running, or exercising.
 
----
 
 **3. Output:**
 The system outputs a skeleton overlay on the image or video, highlighting key joints and body posture. It also provides useful insights like joint angles, detected activities, and feedback (e.g., "Incorrect squat posture—knees are misaligned"). 
