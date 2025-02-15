@@ -94,6 +94,17 @@ Estimation system using MediaPipe involves the following steps:
    * Adjust parameters or settings within
      the MediaPipe pipeline to optimize detection speed and precision.
 
+**Conclusion**
+
+By leveraging MediaPipe, this project
+demonstrates a simple yet powerful method for human pose estimation. The
+MediaPipe pipeline streamlines the development process by providing pre-trained
+models and efficient processing modules, making it easier to build applications
+that require real-time analysis of human movement. Whether used for fitness,
+healthcare, gaming, or security, MediaPipe offers a practical and accessible
+solution for integrating pose estimation into a variety of applications.
+
+**Summary**
 
 **1. Input:**
 The project takes images or videos as input, usually captured via webcams, smartphone cameras, or video files. These inputs contain people performing various movements or poses, which the system will analyze.
@@ -107,14 +118,3 @@ The input is processed using  **MediaPipe Pose** , which detects 33 key landmark
 
 **3. Output:**
 The system outputs a skeleton overlay on the image or video, highlighting key joints and body posture. It also provides useful insights like joint angles, detected activities, and feedback (e.g., "Incorrect squat posture—knees are misaligned"). 
-
-
-**Conclusion**
-
-By leveraging MediaPipe, this project
-demonstrates a simple yet powerful method for human pose estimation. The
-MediaPipe pipeline streamlines the development process by providing pre-trained
-models and efficient processing modules, making it easier to build applications
-that require real-time analysis of human movement. Whether used for fitness,
-healthcare, gaming, or security, MediaPipe offers a practical and accessible
-solution for integrating pose estimation into a variety of applications.
